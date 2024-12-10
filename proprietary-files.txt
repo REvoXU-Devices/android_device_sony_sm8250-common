@@ -188,7 +188,7 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 vendor/firmware/CAMERA_ICP.elf
 
 # Camera libs
-vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service;DISABLE_CHECKELF
+vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
 vendor/bin/vendor.qti.qspmhal@1.0-service
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -426,10 +426,10 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0-impl.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
 vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
-vendor/lib64/vendor.somc.camera.device@3.2-impl.so;DISABLE_CHECKELF
-vendor/lib64/vendor.somc.camera.device@3.3-impl.so;DISABLE_CHECKELF
-vendor/lib64/vendor.somc.camera.device@3.4-impl.so;DISABLE_CHECKELF
-vendor/lib64/vendor.somc.camera.device@3.5-impl.so;DISABLE_CHECKELF
+vendor/lib64/vendor.somc.camera.device@3.2-impl.so
+vendor/lib64/vendor.somc.camera.device@3.3-impl.so
+vendor/lib64/vendor.somc.camera.device@3.4-impl.so
+vendor/lib64/vendor.somc.camera.device@3.5-impl.so
 
 # Camera postprocessing
 vendor/lib/libscveCommon.so
@@ -1189,7 +1189,6 @@ system_ext/framework/qcrilhook.jar
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrild
-vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/ks
 vendor/bin/mdm_helper
@@ -1211,7 +1210,6 @@ vendor/etc/init/qcrild.rc
 vendor/etc/init/ssgtzd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
 vendor/etc/init/vendor.qti.tftp.rc
-vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/qspm.policy
@@ -1251,7 +1249,6 @@ vendor/lib64/qcrild_librilutils.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.1.so
@@ -1632,7 +1629,7 @@ system_ext/lib/libwfdconfigutils.so|df70b2da2b8aff916a1c2f6e7365d87cf1c4ffdf
 system_ext/lib/libwfddisplayconfig.so|f46fe63fb3d58c143dc92741a962167af3d8b928
 system_ext/lib/libwfdmminterface.so|5844114d7cc823090a70fe4f44cbda0ddf585ebd
 system_ext/lib/libwfdmmsink.so|23fb5c836fc06865b229c30b46998e41c0624dac
-system_ext/lib/libwfdmmsrc_system.so|0adfc69a5560158f3a6803ba720acc795d6d05dc
+system_ext/lib/libwfdmmsrc_system.so|0adfc69a5560158f3a6803ba720acc795d6d05dc|f4395e4a22bed41fdbe86c988caba7d46cf0c8bf
 system_ext/lib/libwfdrtsp.so|afd69963c2bd59bdb3ff23e01710c61ed90c5d87
 system_ext/lib/libwfdservice.so|90e41544f3797c118082d1663fd3a09465e50268
 system_ext/lib/libwfdsinksm.so|875171cc6ae534dd941eec1c87b78d5961e19c06
@@ -1651,7 +1648,7 @@ system_ext/lib64/libwfdconfigutils.so|3b2d91fe7efefd81a0b5cdff59b9918c063fa7a9
 system_ext/lib64/libwfddisplayconfig.so|5fd7bf7abaedfe890442f88183c49755b25c39aa
 system_ext/lib64/libwfdmminterface.so|3f16acefbe87741a5841c1c70cf74ff917299c4c
 system_ext/lib64/libwfdmmsink.so|8150b750357b606475521b491f78d566673f9888
-system_ext/lib64/libwfdnative.so|6d6dad5e631bc4d63463f608c47f3f9e5493944f|e7e24b54bfa2e3d4a4037fed085eaee49caeb3ac
+system_ext/lib64/libwfdnative.so|6d6dad5e631bc4d63463f608c47f3f9e5493944f|6f1b6a1b80a7bd24602213c0936337a5d63c7b0d
 system_ext/lib64/libwfdrtsp.so|8181e44d7c1f722218fabd8fe3bf788454a3f586
 system_ext/lib64/libwfdsinksm.so|c4d68ecbe0accd24296c18444e5a82b6a24be8d8
 system_ext/lib64/libwfduibcinterface.so|dca32fe063bdba7ce3b131b16cf112b793ae03ad
